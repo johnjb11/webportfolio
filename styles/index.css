@@ -1,0 +1,61 @@
+* { margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://thumbs.gfycat.com/HeartyClutteredHorsechestnutleafminer-size_restricted.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text > h4 {
+	padding: 0.5rem;
+}
+
+
+
+/*skills css*/
+.column {
+   width: 33.3%;
+ 
+}
+
+section > div > .header {
+  text-align: center;
+  width: 100%;
+}
+
+#skills > card {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ /*end of skill css*/
+
+
+/*about css*/
+div > .img-size {
+  margin-top: 20px;
+  width: 40%;
+  height: auto;
+}
+/*end of about css*/
+
